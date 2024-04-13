@@ -30,5 +30,9 @@ vim.opt.clipboard = "unnamed,unnamedplus"
 vim.opt.scrolloff = 10
 
 -- Enable winbar for each lanuched window
-vim.g.winbar_exclude = { "neo-tree", }
-vim.g.winbar = "%f%m"
+vim.g.winbar_exclude = { "neo-tree" }
+vim.opt.winbar = "%f%m"
+
+-- Enable hidden for keeping not discarding terminal windows
+vim.g.hidden = true
+

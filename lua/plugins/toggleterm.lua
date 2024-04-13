@@ -3,7 +3,7 @@ return {
 	version = "*",
 	config = function()
 		require("toggleterm").setup({
-            opts = {}
+            vim.keymap.set("n", "<leader>t", ":ToggleTerm<CR>")
         })
 	end,
 }
