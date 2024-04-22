@@ -29,10 +29,8 @@ vim.opt.clipboard = "unnamed,unnamedplus"
 -- Enable 10 lines of buffer when cursor is near top/bottom edge of the window
 vim.opt.scrolloff = 10
 
--- Enable winbar for each lanuched window
-vim.g.winbar_exclude = { "neo-tree" }
-vim.opt.winbar = "%f%m"
-
 -- Enable hidden for keeping not discarding terminal windows
 vim.g.hidden = true
 
+-- Enable 24-bit colors
+vim.opt.termguicolors = true
