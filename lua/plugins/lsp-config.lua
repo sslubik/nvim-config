@@ -13,7 +13,7 @@ return {
         config = function()
             require("mason-lspconfig").setup({
                 ensure_installed = {
-                    "lua_ls", "phpactor",
+                    "lua_ls", "phpactor", "tsserver", "pylsp", "jdtls",
                 }
             })
         end,
@@ -41,6 +41,18 @@ return {
                 capabilities = capabilities,
             }
             lspconfig.phpactor.setup {
+                capabilities = capabilities,
+            }
+            lspconfig.arduino_language_server.setup {
+                capabilities = capabilities,
+            }
+            lspconfig.pylsp.setup {
+                capabilities = capabilities,
+            }
+            lspconfig.pylsp.setup {
+                capabilities = capabilities,
+            }
+            lspconfig.jdtls.setup {
                 capabilities = capabilities,
             }
 

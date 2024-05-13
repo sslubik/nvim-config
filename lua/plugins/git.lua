@@ -12,9 +12,16 @@ return {
         end,
         keys = {
             {
-                "<leader>gc",
-                "<cmd>Gitsigns preview_hunk<cr>",
-                desc = "show local git changes"
+                "<leader>gc", "<cmd>Gitsigns preview_hunk<cr>", desc = "show hunk"
+            },
+            {
+                "<leader>gr", "<cmd>Gitsigns reset_hunk<cr>", desc = "reset hunk"
+            },
+            {
+                "<leader>gs", "<cmd>Gitsigns stage_hunk<cr>", desc = "stage hunk"
+            },
+            {
+                "<leader>gu", "<cmd>Gitsigns undo_stage_hunk<cr>", desc = "stage hunk"
             },
         }
     },
@@ -32,7 +39,9 @@ return {
             "nvim-lua/plenary.nvim",
         },
         keys = {
-            { "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" }
+            {
+                "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit"
+            },
         }
     },
 }
