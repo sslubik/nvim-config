@@ -6,11 +6,6 @@ vim.keymap.set("n", "<C-l>", "<C-w>l")
 vim.keymap.set("n", "<C-j>", "<C-w>j")
 vim.keymap.set("n", "<C-k>", "<C-w>k")
 
-vim.keymap.set("n", "<leader>nr", ":set relativenumber<CR>")
-vim.keymap.set("n", "<leader>nn", ":set number<CR>")
-vim.keymap.set("n", "<leader><leader>", ":noh<CR>")
+vim.keymap.set("n", "<leader><leader>", ":noh<CR>", { desc = "undo search highlight" })
 
-vim.keymap.set("n", "<leader>v", ":vsplit<CR>")
-
--- TERMINAL
-vim.keymap.set("t", "<C-x>", [[<C-\><C-n>]])
+vim.keymap.set("n", "<leader>v", ":vsplit<CR>", { desc = "vertical split" })

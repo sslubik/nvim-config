@@ -8,6 +8,7 @@ return {
 
         -- Add dependencies for adapters for testing frameworks here
         "olimorris/neotest-phpunit",
+        "rcasia/neotest-java",
     },
 
     config = function()
@@ -15,13 +16,19 @@ return {
             adapters = {
                 -- Require the adapters here
                 require("neotest-phpunit"),
+                require("neotest-java"),
             }
+        })
+
+        require("neotest-plenary")
+        require("neotest-vim-test")({
+            ignore_file_types = { "python", "vim", "lua", },
         })
     end,
 
     keys = {
         {
-            "<leader>rt",
+            "<leader>tr",
             "<cmd>require(\"neotest\").run.run()<cr>",
             desc = "run nearest test"
         },

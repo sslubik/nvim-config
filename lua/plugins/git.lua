@@ -12,16 +12,16 @@ return {
         end,
         keys = {
             {
-                "<leader>gc", "<cmd>Gitsigns preview_hunk<cr>", desc = "show hunk"
+                "<leader>gC", "<cmd>Gitsigns preview_hunk<cr>", desc = "show hunk"
             },
             {
-                "<leader>gr", "<cmd>Gitsigns reset_hunk<cr>", desc = "reset hunk"
+                "<leader>gR", "<cmd>Gitsigns reset_hunk<cr>", desc = "reset hunk"
             },
             {
-                "<leader>gs", "<cmd>Gitsigns stage_hunk<cr>", desc = "stage hunk"
+                "<leader>gS", "<cmd>Gitsigns stage_hunk<cr>", desc = "stage hunk"
             },
             {
-                "<leader>gu", "<cmd>Gitsigns undo_stage_hunk<cr>", desc = "stage hunk"
+                "<leader>gU", "<cmd>Gitsigns undo_stage_hunk<cr>", desc = "unstage hunk"
             },
         }
     },
