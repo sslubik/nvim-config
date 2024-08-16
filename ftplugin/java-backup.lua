@@ -78,7 +78,7 @@ end
 
 require('jdtls').start_or_attach(config)
 
-vim.keymap.set('n', '<leader>co', "<Cmd>lua require'jdtls'.organize_imports()<CR>", { desc = 'Organize Imports (Java)' })
+vim.keymap.set('n', '<leader>oi', "<Cmd>lua require'jdtls'.organize_imports()<CR>", { desc = 'Organize Imports (Java)' })
 vim.keymap.set('n', '<leader>crv', "<Cmd>lua require('jdtls').extract_variable()<CR>",
     { desc = 'Extract Variable (Java)' })
 vim.keymap.set('v', '<leader>crv', "<Esc><Cmd>lua require('jdtls').extract_variable(true)<CR>",
