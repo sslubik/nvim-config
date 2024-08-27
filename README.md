@@ -10,9 +10,9 @@
 
 ## Installation
 
-Simply clone this repository to `~/.config/nvim
+Simply clone this repository to `~/.config/nvim`
 
-```
+```bash
 git clone https://github.com/sslubik/nvim-config ~/.config/nvim && nvim
 ```
 
