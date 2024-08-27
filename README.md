@@ -6,7 +6,7 @@
 - [`Lazygit`](https://github.com/jesseduffield/lazygit)
 - `tmux` with [`Tmux Plugin Manager`](https://github.com/tmux-plugins/tpm) ([example configuration](https://github.com/sslubik/.tmux.conf))
 - a `Nerd Font`
-- Terminal that supports undercurl and true color: (Alacritty, Kitty, iTerm2)
+- Terminal that supports undercurl and true color: (`Alacritty`, `Kitty`, `iTerm2`)
 
 ## Installation
 
